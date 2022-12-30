@@ -4,6 +4,54 @@ from model import Model
 from process import Process
 import pandas as pd
 
+#c = Create(5)
+#
+## proc = Process(5)
+#proc = Process(5,2)
+#
+#proc.max_queue = 5
+#
+#c.distribution = 'exp'
+#proc.distribution = 'exp'
+#
+#c.name = 'Creator'
+#proc.name = 'Process 1'
+#
+#c.next_element = [proc]
+#
+#elements = [c, proc]
+#model = Model(elements)
+#res = model.simulate(1000)
+
+# c = Create(5)
+#
+# p1 = Process(5)
+# p2 = Process(5)
+# p3 = Process(5)
+#
+# c.next_element = [p1]
+# p1.next_element = [p2, p3]
+#
+# p1.probability = ([0.5, 0.5])
+#
+# p1.max_queue = 5
+# p2.max_queue = 5
+# p3.max_queue = 5
+#
+# c.distribution = 'exp'
+# p1.distribution = 'exp'
+# p2.distribution = 'exp'
+# p3.distribution = 'exp'
+#
+# c.name = 'Creator'
+# p1.name = 'Process 1'
+# p2.name = 'Process 2'
+# p3.name = 'Process 3'
+#
+# elements = [c, p1, p2, p3]
+# model = Model(elements)
+# res = model.simulate(1000)
+
 n_param = 15
 
 delay_create_list =   [2, 10, 1, 6, 7, 8, 1, 3, 0.5, 5, 5, 4, 4, 4, 4]
